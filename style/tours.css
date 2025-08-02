@@ -1,0 +1,119 @@
+#Tours {
+  height: auto;
+  width: 100%;
+  padding: 5% 0;
+  background: #212230;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.ToursContent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1rem 2rem;
+  display: flex;
+}
+
+.TheCard {
+  border-radius: 15px;
+  overflow: hidden;
+  height: 400px;
+  width: 310px;
+  background: #475b74;
+  margin-right: 3%;
+  margin-bottom: 5%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.TourImg {
+  border-radius: 16px;
+  margin-bottom: 5%;
+  z-index: 10;
+  height: 90%;
+  width: 100%;
+  box-shadow: 0 0 8px #333;
+}
+.TheCard p {
+  color: black;
+  z-index: 10;
+  font-weight: 700;
+  font-size: 18px;
+  align-items: center;
+  transition: 0.6s;
+}
+.btns {
+  display: flex;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2%;
+}
+.TheCard a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 8px;
+  font-size: 19px;
+  font-weight: 600;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+}
+.TheCard a:hover {
+  color: orangered;
+  background: #fff;
+}
+
+.TheCard:hover p {
+  color: #fffeef;
+}
+
+.overly {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  height: 0;
+  width: 100%;
+  background: #333;
+  transition: height 0.6s;
+}
+.TheCard:hover > .overly {
+  height: 61%;
+}
+.ribbon-wrap {
+  z-index: 10;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.ribbon {
+  width: 200px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 0;
+  background: orangered;
+  color: white;
+  position: absolute;
+  transform: rotate(-45deg);
+  right: -20%;
+  top: 20%;
+  box-shadow: 2px 0 8px black;
+}

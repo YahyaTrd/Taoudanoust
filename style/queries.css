@@ -1,0 +1,84 @@
+@media screen and (max-width: 1100px) {
+  .exploreTop {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .incod {
+    font-size: 22px;
+  }
+  .nav-toggle {
+    position: absolute;
+    display: flex;
+    top: 18px;
+    right: 25px;
+  }
+  .nav-toggle:hover i {
+    color: orangered;
+  }
+  #nav {
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid white;
+    font-size: large;
+    padding: 12px 20px;
+  }
+  .links-container ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 154%;
+  }
+  .links-container ul li {
+    font-size: 19px;
+  }
+  .links-container {
+    display: none;
+  }
+  .links-container.active {
+    display: flex;
+  }
+  .mynav {
+    padding-bottom: 30px;
+  }
+  .exploreTop {
+    display: none;
+  }
+  .TheBlur {
+    filter: blur(4px);
+  }
+  .banner {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 950px) and (orientation: landscape) {
+  .homeWave svg {
+    transform: rotate(0deg);
+    height: 40px;
+  }
+
+  .nav-toggle {
+    position: absolute;
+    display: flex;
+    right: 45px;
+    top: 20px;
+  }
+  .servicesWave svg {
+    transform: rotateY(0deg);
+  }
+  .FloatPics {
+    padding-top: 5%;
+  }
+  .cardWrap {
+    height: 240px;
+    width: 120px;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .ball {
+    height: 120px;
+    width: 120px;
+    animation-delay: 0ms;
+  }
+}

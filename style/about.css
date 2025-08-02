@@ -1,0 +1,115 @@
+#About {
+  height: 100vh;
+  width: 100%;
+  background: #ebc4c4;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 70%;
+  height: 80%;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 17px;
+  box-shadow: 0 0 6px #333;
+}
+
+.radio {
+  display: none;
+}
+.slide {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.slide img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transform: scale(1.06);
+  transition: 0.5s;
+}
+.caption {
+  background: rgba(0, 0, 0, 0.8);
+  width: 50%;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 4px 8px;
+  position: absolute;
+  top: -100%;
+  transition: 0.5s;
+  left: 3%;
+}
+
+.caption .title {
+  text-transform: uppercase;
+  color: orangered;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.caption .description {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #e4e4e4;
+  line-height: 20px;
+}
+.datos {
+  padding: 2px 4px;
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(51, 51, 51, 0.8);
+}
+.datos label {
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 68, 0, 0.4);
+  border-radius: 50%;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+.datos label:hover {
+  background: orangered;
+}
+#radio1:checked ~ #slide1,
+#radio2:checked ~ #slide2,
+#radio3:checked ~ #slide3,
+#radio4:checked ~ #slide4,
+#radio5:checked ~ #slide5 {
+  opacity: 1;
+}
+#radio1:checked ~ #slide1 img,
+#radio2:checked ~ #slide2 img,
+#radio3:checked ~ #slide3 img,
+#radio4:checked ~ #slide4 img,
+#radio5:checked ~ #slide5 img {
+  transform: scale(1);
+}
+#radio1:checked ~ #slide1 .caption,
+#radio2:checked ~ #slide2 .caption,
+#radio3:checked ~ #slide3 .caption,
+#radio4:checked ~ #slide4 .caption,
+#radio5:checked ~ #slide5 {
+  top: 3%;
+}
+#radio1:checked ~ .datos #slide1,
+#radio2:checked ~ .datos #slide2,
+#radio3:checked ~ .datos #slide3,
+#radio4:checked ~ .datos #slide4,
+#radio5:checked ~ .datos #slide5 {
+  background: orangered;
+}
