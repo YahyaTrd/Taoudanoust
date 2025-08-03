@@ -1,0 +1,218 @@
+.sub-header {
+  padding: 10vh 0;
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(49, 162, 115, 0.5)),
+    url(/images/WhatsApp\ Image\ 2025-07-31\ at\ 18.53.09.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  background-color: #ebc4c4;
+}
+section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sub-header #nav {
+  padding: 16px;
+  font-size: 25px;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid #fff;
+}
+.container {
+  flex-direction: row;
+  display: flex;
+  gap: 15px;
+  color: orangered;
+}
+.container a span {
+  text-decoration: none;
+  color: orangered;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 659;
+}
+.container a span:hover {
+  text-decoration: underline;
+}
+.container a {
+  text-decoration: none;
+  color: #fff;
+}
+.container a:hover {
+  text-decoration: underline;
+}
+.banner2 {
+  width: 25%;
+  transform: translateY(10px);
+}
+.banner2 h2 {
+  color: white;
+}
+.sub-header .container {
+  flex-direction: row;
+  display: flex;
+  color: #e4e4e4;
+  gap: 15px;
+}
+.sub-header .banner {
+  color: white;
+}
+.location {
+  height: 110vh;
+  background: #928d8d;
+  gap: 5%;
+}
+.location h1 {
+  font-size: 32px;
+}
+iframe {
+  border-radius: 15px;
+  box-shadow: 0 0 8px #333;
+}
+
+.ForCards {
+  height: auto;
+  display: flex;
+  padding: 2%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+}
+
+.ForCards .item {
+  height: 120px;
+  width: 180px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 16px;
+  color: #333;
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+.ForCards .item:hover {
+  box-shadow: 0 10px 20px rgba(38, 41, 40, 0.5);
+}
+.ForCards::-webkit-scrollbar {
+  display: none;
+}
+.item h2 {
+  font-size: 23px;
+  padding: 0 10%;
+  margin-top: 2%;
+}
+.item i {
+  padding: 1%;
+  font-size: 18px;
+  color: orangered;
+}
+.item:nth-child(1) i {
+  color: #de7213ab;
+}
+
+.QA {
+  padding: 5% 0;
+  width: 100%;
+  height: auto;
+  background: #928d8d;
+}
+
+.Qcontainer {
+  height: auto;
+  width: 650px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.Qcontainer h1 {
+  font-size: 33px;
+  margin-bottom: 40px;
+  color: orangered;
+}
+.Qcontainer h1 span {
+  color: white;
+}
+.Qcontainer .q {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  display: flex;
+  background: #e4e4e4;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  padding-bottom: 5px;
+  box-shadow: 0 5px 9px black;
+}
+.Qcontainer .question {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 20px;
+}
+.Qcontainer .question .text {
+  width: 96%;
+  text-transform: capitalize;
+}
+.Qcontainer .hide {
+  display: none;
+}
+.question button {
+  right: 10px;
+  top: 0;
+  position: absolute;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-size: 26px;
+  color: orangered;
+  font-weight: 700;
+  cursor: pointer;
+}
+.Qcontainer .addAnswer {
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+.Qcontainer .bar {
+  margin: auto;
+  width: 80%;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.Qcontainer .answer::first-letter {
+  font-size: 30px;
+  color: orangered;
+}
+footer {
+  height: auto;
+  padding-top: 0;
+}
