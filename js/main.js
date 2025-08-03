@@ -43,3 +43,40 @@ mainOverlay.addEventListener("click", function () {
   });
   mood = "open";
 });
+
+date.innerHTML = new Date().getFullYear();
+window.onscroll = function () {
+  if (window.scrollY >= 13) {
+    back.style.display = "block";
+  } else {
+    back.style.display = "none";
+  }
+  centerNav.classList.remove("mynav");
+  linksContainer.classList.remove("active");
+  navToggle.innerHTML = '<i class="bars fa-solid fa-bars"></i>';
+  mainOverlay.style.zIndex = "0";
+  bluring.forEach(function (el) {
+    el.classList.remove("TheBlur");
+  });
+  mood = "open";
+};
+back.addEventListener("click", function () {
+  Window.scroll({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
+
+scrollLinks.forEach(function (scrollLink) {
+  scrollLink.addEventListener("click", function (e) {
+    e.preventDefault();
+    const id = e.currentTarget.getAttribute("href").slice(1);
+    const element = document.getElementById(id);
+    let position = element.offsetTop;
+    window.scrollTo({
+      left: 0,
+      top: position - 50,
+    });
+  });
+});

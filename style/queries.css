@@ -81,4 +81,178 @@
     width: 120px;
     animation-delay: 0ms;
   }
+  .shadow {
+    height: 25px;
+    width: 70px;
+  }
+  .pop {
+    padding-bottom: 2px;
+    font-size: 18px;
+  }
+  .TheCard {
+    height: 350px;
+    width: 280px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .explore {
+    flex-direction: column;
+    display: flex;
+    width: 400px;
+    margin-bottom: 25px;
+    height: auto;
+  }
+  .ass {
+    display: flex;
+    padding: 5% 8%;
+    width: 90%;
+    height: auto;
+    margin-bottom: 25px;
+  }
+  .AssInfo h2 {
+    margin-top: 5%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .slider {
+    width: 80%;
+  }
+  .caption {
+    width: 94%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .banner {
+    transform: translateY(15%);
+    width: 80%;
+  }
+}
+@media screen and (max-width: 626px) {
+  .TheBlur {
+    filter: blur(4px);
+  }
+  .exploreTop {
+    display: none;
+  }
+  .banner {
+    width: 95%;
+    transform: translateY(-20%);
+  }
+  .banner .container h1 {
+    font-size: 29px;
+  }
+  .banner .container p {
+    font-size: 15px;
+  }
+  .exploreBtn {
+    padding: 5px 8px;
+    font-size: 16px;
+  }
+  .homeWave svg {
+    height: 40px;
+    transform: rotate(0deg);
+  }
+  .links-container ul li a {
+    font-size: 20px;
+  }
+
+  #About {
+    height: 90vh;
+  }
+  .slider {
+    height: 80vh;
+    width: 90%;
+  }
+  .caption {
+    width: 95%;
+  }
+  .caption .title {
+    font-weight: 683;
+    font-size: 18px;
+  }
+  .caption .description {
+    font-size: 16px;
+  }
+  #radio1:checked ~ #slide1 .caption,
+  #radio2:checked ~ #slide2 .caption,
+  #radio3:checked ~ #slide3 .caption,
+  #radio4:checked ~ #slide4 .caption,
+  #radio5:checked ~ #slide5 .caption {
+    top: 3%;
+  }
+  .servicesWave svg {
+    transform: rotateY(0deg);
+    height: 40px;
+  }
+  .FloatPics {
+    gap: 5%;
+    padding-top: 5%;
+  }
+  .cardWrap {
+    height: 240px;
+  }
+  .cardWrap:nth-child(2),
+  .cardWrap:nth-child(3) {
+    margin-bottom: 20px;
+  }
+  .ball {
+    height: 120px;
+    width: 120px;
+    animation-delay: 1s;
+  }
+  .shadow {
+    height: 25px;
+    width: 70px;
+    animation-delay: 0ms;
+  }
+  .pop {
+    margin-bottom: 2px;
+    font-size: 19px;
+  }
+  .footerCards {
+    flex-direction: column;
+    display: flex;
+  }
+  .d2 {
+    color: orangered;
+    background: #e4e4e4;
+  }
+  .d2 h2 {
+    font-size: 20px;
+  }
+  .d0 h3 {
+    font-size: 19px;
+  }
+  .d3 h4 {
+    font-size: 14px;
+  }
+  .explore .ass {
+    flex-direction: column;
+    display: flex;
+    width: 310px;
+    height: auto;
+    margin-bottom: 25px;
+  }
+  .AssInfo h2 {
+    margin-top: 5%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .AssInfo .social-icons {
+    margin-bottom: 25px;
+  }
+  .AssInfo .social-icons i {
+    font-size: 26px;
+  }
+  .sponsor {
+    bottom: 2%;
+  }
+  footer {
+    padding: 6% 0;
+  }
+  footer img {
+    display: none;
+  }
 }
