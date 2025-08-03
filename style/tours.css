@@ -56,6 +56,9 @@
 .btns {
   display: flex;
   z-index: 10;
+  position: fixed;
+  margin-left: 50px;
+  margin-top: 20px;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -70,6 +73,7 @@
   outline: none;
   border: 1px solid black;
   border-radius: 5px;
+  background: rgb(66, 61, 60);
   color: white;
 }
 .TheCard a:hover {

@@ -81,6 +81,9 @@ section {
 .location h1 {
   font-size: 32px;
 }
+.titre span {
+  color: orangered;
+}
 iframe {
   border-radius: 15px;
   box-shadow: 0 0 8px #333;
