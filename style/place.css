@@ -18,6 +18,22 @@
     ),
     url(/images//WhatsApp\ Image\ 2025-08-01\ at\ 12.31.46.jpeg);
 }
+.im {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.95),
+      rgba(255, 255, 255, 0)
+    ),
+    url(/images/WhatsApp\ Image\ 2025-08-04\ at\ 17.19.11.jpeg);
+}
+.ait {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.95),
+      rgba(255, 255, 255, 0)
+    ),
+    url(/images/WhatsApp\ Image\ 2025-07-31\ at\ 18.53.08.jpeg);
+}
 .place #nav {
   padding: 16px;
   font-size: 21px;

@@ -132,6 +132,28 @@
   textarea {
     width: 80%;
   }
+  .place {
+    height: 100vh;
+  }
+  .place .booking {
+    width: 20%;
+  }
+  .bigTitle {
+    margin-bottom: 4%;
+    font-weight: 700;
+    font-size: 26px;
+  }
+  .mainDesc {
+    padding: 0% 3%;
+    width: 100%;
+    font-size: 20px;
+  }
+  .PiscContainer {
+    justify-content: space-evenly;
+  }
+  .PiscContainer .pic {
+    width: 300px;
+  }
 }
 @media screen and (max-width: 700px) {
   .banner {
