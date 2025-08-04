@@ -46,8 +46,10 @@
   box-shadow: 0 0 8px #333;
 }
 .TheCard p {
-  color: black;
+  color: white;
   z-index: 10;
+  position: fixed;
+  margin-top: 250px;
   font-weight: 700;
   font-size: 18px;
   align-items: center;

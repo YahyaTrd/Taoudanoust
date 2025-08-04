@@ -121,6 +121,17 @@
   .caption {
     width: 94%;
   }
+  .contactForm {
+    height: auto;
+    padding: 2%;
+  }
+  form {
+    width: 70%;
+  }
+  form input,
+  textarea {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 700px) {
   .banner {
@@ -254,5 +265,47 @@
   }
   footer img {
     display: none;
+  }
+  .sub-header {
+    height: 100vh;
+  }
+  .banner2 {
+    width: 50%;
+  }
+  .ForCards {
+    padding: 2%;
+    margin: 5%;
+    justify-content: flex-start;
+    gap: 15px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+  .ForCards .item {
+    min-height: 110px;
+    min-width: 160px;
+    padding: 0 1%;
+  }
+  .item h2 {
+    padding: 0;
+  }
+  .location {
+    height: 100vh;
+    width: 100%;
+    gap: 2%;
+  }
+  .QA {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  form {
+    width: 90%;
+  }
+  form input,
+  textarea {
+    width: 85%;
+    box-shadow: 0 0 2px #333;
   }
 }
