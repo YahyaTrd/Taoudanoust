@@ -66,6 +66,15 @@
   width: 100%;
   gap: 2%;
 }
+.TheCard:nth-child(1) {
+  transform: rotate(160deg);
+}
+.TheCard:nth-child(2) {
+  transform: rotate(100deg);
+}
+.TheCard:nth-child(3) {
+  transform: rotate(200deg);
+}
 .TheCard a {
   text-transform: uppercase;
   text-decoration: none;

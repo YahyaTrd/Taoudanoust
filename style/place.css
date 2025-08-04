@@ -1,0 +1,184 @@
+.place {
+  padding: 10vh 0;
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ah {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.95),
+      rgba(255, 255, 255, 0)
+    ),
+    url(/images//WhatsApp\ Image\ 2025-08-01\ at\ 12.31.46.jpeg);
+}
+.place #nav {
+  padding: 16px;
+  font-size: 21px;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.95);
+  border-bottom: 0;
+}
+.place .container {
+  flex-direction: row;
+  gap: 16px;
+  color: #e4e4e4;
+  display: flex;
+}
+.place a {
+  font-weight: 700;
+  text-decoration: none;
+  color: orangered;
+}
+.span {
+  font-size: 18px;
+}
+
+.place h1 {
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  color: #e4e4e4;
+  top: 40%;
+  left: 5%;
+}
+
+.place .booking {
+  width: 200px;
+  font-size: 20px;
+  height: auto;
+  color: #333;
+  border-radius: 50px;
+  padding: 2px 0;
+  background: #e4e4e471;
+  right: 5%;
+  position: absolute;
+  bottom: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: 0.4s;
+}
+.place .booking:hover {
+  color: rgb(213, 114, 79);
+}
+.PlaceContent {
+  height: auto;
+  padding: 2%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.bigTitle {
+  color: orangered;
+  font-size: 35px;
+  margin-bottom: 2%;
+}
+
+.mainDesc {
+  text-align: center;
+  color: #333;
+  width: 65%;
+}
+.PiscContainer {
+  width: 100%;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 2%;
+}
+.PiscContainer .pic {
+  margin-top: 2%;
+  box-shadow: 0 0 3px #333;
+
+  width: 620px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+  padding-bottom: 5px;
+}
+.PiscContainer .pic img {
+  object-fit: cover;
+  transition: 0.6s;
+}
+.PiscContainer .pic:hover img {
+  transform: scale(1.1);
+}
+.picOver {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0;
+  height: 150px;
+  background: #212230be;
+  transition: 0.5s;
+}
+.picOver2 {
+  background: rgba(255, 68, 0, 0.5);
+}
+.PiscContainer .pic:hover > .picOver {
+  height: 470px;
+  width: 100%;
+}
+.picOver h1,
+.picOver h2 {
+  opacity: 0;
+  transition: 0.2s;
+  visibility: hidden;
+  bottom: 15%;
+  position: absolute;
+  left: 5%;
+  font-size: 50px;
+  color: #e4e4e4;
+}
+.picOver h1 {
+  bottom: 70%;
+  font-size: 40px;
+}
+.PiscContainer .pic:hover > .picOver h1,
+.PiscContainer .pic:hover > .picOver h2 {
+  opacity: 1;
+  visibility: visible;
+}
+.placeInfo {
+  padding: 1.5% 5%;
+  color: #212230;
+}
+.under {
+  color: rgb(22, 22, 22);
+  text-decoration: line-through red 2px;
+}
+.price {
+  color: orangered;
+}
+
+.stars {
+  display: flex;
+  padding: 0 5%;
+  color: rgb(235, 82, 11);
+}
+.stars i {
+  cursor: pointer;
+  font-size: 16px;
+}
+.stars h5 {
+  margin-left: 2%;
+}
