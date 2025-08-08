@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="style/map.css" />
     <link rel="manifest" href="tz/site.webmanifest" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script
       src="https://kit.fontawesome.com/bd7a383c86.js"
       crossorigin="anonymous"
@@ -22,12 +23,12 @@
           <a href="index.html"><span>Taoudanoust</span> Back To Home</a>
         </div>
       </nav>
-      <h1>
+      <h1 data-aos="fade-down-left">
         <span class="span">Things that exist <br />in AitHamza</span>
       </h1>
       <a href="form.html" class="booking">Book Now</a>
     </div>
-    <section class="ForCards">
+    <section class="ForCards" data-aos="zoom-in-down">
       <div class="item">
         <i class="fa-solid fa-sun"></i>
         <h2>Day trips</h2>
@@ -45,7 +46,7 @@
         <h2>Food and Drinks</h2>
       </div>
     </section>
-    <section class="PlaceContent">
+    <section class="PlaceContent" data-aos="fade-right">
       <h1 class="bigTitle">AitHamza</h1>
       <h2 class="mainDesc">Discover the village Ait hamza</h2>
       <div class="PiscContainer">
@@ -94,6 +95,7 @@
     <section class="location placeMap">
       <h1 class="titre">Google <span>Map</span></h1>
       <iframe
+        data-aos="flip-left"
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1842.5926975741975!2d-7.013066743328265!3d31.778971923290253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sma!4v1754317940785!5m2!1sen!2sma"
         width="900"
         height="550"
@@ -105,7 +107,7 @@
       </iframe>
     </section>
     <footer id="Follow">
-      <div class="footerCards blury">
+      <div class="footerCards blury" data-aos="fade-up" data-aos-duration="500">
         <div class="card leftCard footerCard explore">
           <div class="d1">
             <h3>8 days- 7nights</h3>
@@ -171,5 +173,8 @@
         </div>
       </div>
     </footer>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
